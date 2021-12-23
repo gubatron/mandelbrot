@@ -66,7 +66,7 @@ function v2m(p) {
 
 // (x,y) -> color
 function mandelbrot(p) {
-    const ITERATIONS = 100
+    const ITERATIONS = 1000
 
     // javascript representation of Z in complex space
     let z = new Complex(0, 0)
